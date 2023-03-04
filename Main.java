@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         MyLinkedList<Integer> myLinkedList = new MyLinkedList<>();
         myLinkedList.addLast(3);
+	  myLinkedList.addLast(4);
         myLinkedList.print();
 //        myLinkedList.remove(9);
 //        System.out.println("after removing: ");
